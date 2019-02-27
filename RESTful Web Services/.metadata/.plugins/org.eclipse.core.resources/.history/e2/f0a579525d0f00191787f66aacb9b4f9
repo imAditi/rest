@@ -1,0 +1,13 @@
+package com.yash.restapp.domain;
+
+public class Blog {
+private int id;
+private String title;
+private String type;
+public Blog(int id, String title, String type) {
+	super();
+	this.id = id;
+	this.title = title;
+	this.type = type;
+}
+}
